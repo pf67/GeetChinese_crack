@@ -12,7 +12,7 @@ windows10 python tensorflow
 
 
 ## 文字定位
-采用Faster RCNN 深度学习定位技术，技术框架使用了dBeker的window版Faster RCNN开源项目：[超连接] (https://github.com/dBeker/Faster-RCNN-TensorFlow-Python3.5)
+采用Faster RCNN 深度学习定位技术，技术框架使用了dBeker的window版Faster RCNN开源项目：[超连接](https://github.com/dBeker/Faster-RCNN-TensorFlow-Python3.5)
 
 ## 文字识别
 采用中文识别常用的5层CNN神经网络，识别4K个汉字分类
