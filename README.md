@@ -1,26 +1,26 @@
-#*极验中文验证码破解*
+# *极验中文验证码破解*
 
-##说明
+## 说明
 极验中文验证码需要用户按照指定的汉字顺序依次点击验证图片中嵌入的中文字符
 ![geetcode](https://github.com/pf67/GeekChinese_crack/blob/master/data/demo/input/313_148.jpg)
 
 本项目基于深度学习目标检测技术进行验证码识别，实现点选中文验证码破解
 
-##开发环境
+## 开发环境
 windows10 python tensorflow
 
 
-##文字定位
+## 文字定位
 采用Faster RCNN 深度学习定位技术，技术框架使用了dBeker的window版Faster RCNN开源项目：[超连接] (https://github.com/dBeker/Faster-RCNN-TensorFlow-Python3.5)
 
-##文字识别
+## 文字识别
 采用中文识别常用的5层CNN神经网络，识别4K个汉字分类
 
-##图像处理
+## 图像处理
 对验证码图像进行图像分割，分割为校验区和主区，校验区图像采用文字扫描算法识别文字位置，主区图像采用文字定位技术识别文字位置
 对成功识别位置的文字进行灰度，中心二值化采样，作为文字识别神经网络输入
 
-##训练样本（本项目不包含实际训练样本，使用者根据需要自行获取）
+## 训练样本（本项目不包含实际训练样本，使用者根据需要自行获取）
 *文字定位网络训练样本*
 
 对极验中文验证码直接进行位置标注，分类大小1
@@ -33,7 +33,7 @@ windows10 python tensorflow
 训练样本通过旋转，加噪，腐蚀膨胀等方式进行样本扩充
 并存储为tfrecord格式
 
-##训练方法
+## 训练方法
 
 *文字定位训练
 1.图像分割，使用主区图像进行定位训练
@@ -44,8 +44,8 @@ windows10 python tensorflow
 
 主区和校验区字体，分别进行训练
 
-#识别效果
+## 识别效果
 ![crack](https://github.com/pf67/GeekChinese_crack/blob/master/data/demo/input/result.jpg)
 
-#免责声明
+## 免责声明
 该项目仅用于学术交流，不得任何商业使用！
