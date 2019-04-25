@@ -2,7 +2,7 @@
 
 ##说明
 极验中文验证码需要用户按照指定的汉字顺序依次点击验证图片中嵌入的中文字符
-
+![geetcode](https://github.com/pf67/GeekChinese_crack/blob/master/data/demo/input/313_148.jpg)
 
 本项目基于深度学习目标检测技术进行验证码识别，实现点选中文验证码破解
 
@@ -43,3 +43,9 @@ windows10 python tensorflow
 2.验证码字体，进行二轮纠正训练
 
 主区和校验区字体，分别进行训练
+
+#识别效果
+![crack](https://github.com/pf67/GeekChinese_crack/blob/master/data/demo/input/result.jpg)
+
+#免责声明
+该项目仅用于学术交流，不得任何商业使用！
